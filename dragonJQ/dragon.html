@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donjon et Dragon</title>
+    <link href="https://fonts.googleapis.com/css?family=Quintessential&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="sounds">
+        <audio class="torches" src="css/audio/torches.mp3" autoplay loop></audio>
+        <audio class="applaudissements" src="css/audio/applaudissements.mp3"></audio>
+        <audio class="victoire" src="css/audio/victoire.mp3"></audio>
+    </div>
+    <div class="container">
+        <img src="css/img/torche.26077.gif" alt="Torche gauche">
+        <div class="game">
+            <h1>Donjon et Dragon</h1>
+            <p class="instruction"></p>
+            <input type="text" id="nom_joueur">
+            <div class="choix">
+                <input type="radio" name="portes" value="Porte Bleue">Porte Bleue
+                <input type="radio" name="portes" value="Porte Rouge">Porte Rouge
+                <input type="radio" name="portes" value="Porte Verte">Porte Verte
+            </div>
+            <div class="action">
+                <input type="radio" name="action" value="Attaquer !">Attaquer !
+                <input type="radio" name="action" value="Se Défendre !">Se Défendre !
+            </div>
+            <input type="text" id="devinette">
+            <br>
+            <div class="rejouer">
+                <button id="rejouer">Rejouer</button>
+                <button id="quitter">Quitter</button>
+            </div>
+            <br>
+            <button id="next">Suivant</button>
+        </div>
+        <img src="css/img/torche.26077.gif" alt="Torche droite">
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/utilities.js"></script>
+</body>
+
+</html>
