@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ebeff0;
+}
+
+.container {
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #eb4f40;
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: #fff;
+}
+
+canvas:hover{
+    cursor: pointer;
+}
+
+.couleurs a {
+    display: inline-block;
+    width: 3rem;
+    height: 30px;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.couleurs {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.picker a {
+    display: block;
+    width: 2rem;
+    height: 20px;
+    margin: 0;
+}
+
+#colorpicker {
+    display: flex;
+    margin-left: 1rem;
+}
+
+.canvas {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tools {
+    margin-left: 5rem;
+}
+
+button {
+    padding: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+#dessin {
+    border: 2px solid black;
+    background-color: #fff;
+    margin-left: 1rem;
+}
